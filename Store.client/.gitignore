@@ -1,0 +1,84 @@
+# Ignore the build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore JetBrains Rider specific files
+.idea/
+
+# Ignore Visual Studio Code settings
+.vscode/
+.vscode/*
+
+# Ignore NCrunch
+.ncrunchsolution/
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+*.snupkg
+
+# Ignore the .NET user-specific folders
+**/AppData/Local/.NETCoreTestHost/
+**/AppData/Local/Microsoft/VisualStudio/16.0_*/
+
+# Ignore the .vs folder for Visual Studio
+.vs/
+
+# Ignore the debug/release folders
+Debug/
+Release/
+
+# Ignore publish output
+wwwroot/
+publish/
+
+# Ignore logs and local environment settings
+*.log
+.env
+.env.local
+.env.*.local
+
+# Ignore local History for Visual Studio Code
+.history/
+
+# Ignore Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore Rider specific files
+.idea/
+
+# Ignore WebAssembly output directory
+bin/Release/net5.0/publish/wwwroot/
+
+# Ignore .NET Core generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore the SQLite database file (if used locally)
+*.db
+
+# Ignore any app secrets
+secrets.json
+
+# Ignore Blazor specific files
+Client/obj/
+Server/obj/
+Shared/obj/
+
+# Ignore EF Migrations history
+Migrations/
+
+# Ignore generated code for Razor Components
+.g.dart
+
+# Ignore the Settings.json file (user-specific, should not be in source control)
+**/Properties/launchSettings.json
